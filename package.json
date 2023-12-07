@@ -1,0 +1,33 @@
+{
+  "name": "@underdog-protocol/ui",
+  "version": "0.0.0",
+  "description": "UI components for the Underdog Protocol",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.42",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "jest": "^29.0.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwind-merge": "^2.1.0",
+    "tailwindcss": "^3.3.6"
+  },
+  "dependencies": {
+    "clsx": "^2.0.0"
+  }
+}
